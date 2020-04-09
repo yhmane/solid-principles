@@ -4,12 +4,8 @@
  */
 public class APrinter2020 implements PrintService, SacnService {
     @Override
-    public void print() {
-
-    }
+    public void print() {}
 
     @Override
-    public void scan() {
-
-    }
+    public void scan() {}
 }

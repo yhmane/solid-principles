@@ -4,7 +4,5 @@
  */
 public class APrinter2000 implements PrintService {
     @Override
-    public void print() {
-
-    }
+    public void print() {}
 }
