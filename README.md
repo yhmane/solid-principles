@@ -26,9 +26,9 @@
  
 #### feature-ocp Structure
 * before
+    * SMouse
+    * Computer
+* after
     * AMouse
     * OcpComputer
     * OcpMouse (interface)
-* after
-    * SMouse
-    * Computer
