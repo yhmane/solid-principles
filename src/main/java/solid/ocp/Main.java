@@ -1,8 +1,8 @@
-package solid;
+package solid.ocp;
 
-import solid.before.Computer;
-import solid.after.OcpComputer;
-import solid.after.AMouse;
+import solid.ocp.before.Computer;
+import solid.ocp.after.OcpComputer;
+import solid.ocp.after.AMouse;
 
 public class Main {
 	public static void main(String[] main) {

@@ -1,4 +1,4 @@
-package solid.after;
+package solid.ocp.after;
 
 public class OcpComputer {
 	
