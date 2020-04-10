@@ -1,11 +1,11 @@
-package solid;
+package solid.before;
 
 public class Computer {
 
 	private final SMouse mouse = new SMouse();
 	
 	public void boot() {
-		// run
 		mouse.connect();
+		System.out.println("boot");
 	}
 }

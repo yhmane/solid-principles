@@ -1,15 +1,19 @@
 package solid;
 
+import solid.before.Computer;
+import solid.after.OcpComputer;
+import solid.after.AMouse;
+
 public class Main {
-	public static void main() {
+	public static void main(String[] main) {
 		
-		// ocp ¼³°è ÀÌÀüÀÇ ÄÄÇ»ÅÍ
+		// ocp ì„¤ê³„ ì´ì „
 		Computer computer = new Computer();
 		computer.boot();
 		
-		// ocp ¼³°è ÀÌÈÄÀÇ ÄÄÇ»ÅÍ
+		// ocp ì„¤ê³„ ì´í›„
 		OcpComputer ocpCom = new OcpComputer();
-		ocpCom.setMouse(new OcpMouse());
+		ocpCom.setOcpMouse(new AMouse());
 		ocpCom.boot();
 	}
 }
