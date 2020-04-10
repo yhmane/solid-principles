@@ -1,4 +1,4 @@
-package solid.before;
+package solid.ocp.before;
 
 public class Computer {
 
