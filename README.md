@@ -15,10 +15,12 @@
  
 #### feature-srp Structure
  * before
-    * PrintService -> print, scan
+    * Human -> research, teach, catchThief, patrol, pramgram, debug, spadeWork, paint
  * after
-    * PrintService -> print
-    * ScanService -> scan
+    * Professor -> research, teach
+    * PoliceOfficer -> catchThief, patrol
+    * Programmer -> pramgram, debug
+    * InteriorWorker -> spadeWork, paint
 ##
 ### feature-ocp (Open Closed Principle)
  * 소프트웨어는 확장(기능)에는 열려 있어야 하고, 주변 변화에는 닫혀 있어야 합니다. 
@@ -36,7 +38,7 @@
 ### feature-lsp (Liskov Substition Principle)
 * 상위 타입의 객체를 하위 타입의 객체로 치환해도 상위 타입을 사용하는 프로그램은 정상적으로 동작해야 합니다.
 
-#### feature-lsp
+#### feature-lsp Structure
 * before
     * BeforeRectangle
     * BeforeSquare
@@ -44,3 +46,16 @@
     * Shape
     * Rectangle
     * Square
+
+##
+### feature-isp (Interface Sgregation Principle)
+* 클라이언트가 자신이 이용하지 않는 메서드에 의존하지 않아야 한다는 원칙입니다.
+* 클래스가 사용하는 기능만 제공하도록 인터페이스를 분리하는 것 입니다.
+* 하나의 일반적인 인터페이스보다는, 여러 개의 구체적인 인터페이스가 낫습니다.
+
+#### feature-isp Structure
+* * before
+     * PrintService -> print, scan
+  * after
+     * PrintService -> print
+     * ScanService -> scan

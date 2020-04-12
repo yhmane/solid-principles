@@ -1,4 +1,4 @@
-package solid.srp.after;
+package solid.isp.after;
 
 /**
  * @author hwang-yunho on 2020. 4. 8.
